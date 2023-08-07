@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Analisador de números</title>
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Número (entre 1 e 100): 
+                <input type="number" id="numero" name="numero">
+                <input type="button" value="Adicionar" onclick="adicionar()">
+            </p>
+            <p>
+                <select name="tabela" id="tabela" size="5">
+                    <option>Digite um valor</option>
+                </select>
+            </p>
+            <p>
+                <input type="button" name="finalizar" id="finalizar" value="Finalizar" onclick="finalizar()">
+            </p>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>Developed by &copy;VitorTatsumi</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

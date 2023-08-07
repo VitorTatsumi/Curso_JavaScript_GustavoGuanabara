@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(125, 233, 197);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    height: 500px;
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.315);
+}
+
+#imagem {
+    width: 55%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #00000048;
+}
+
+div#hora {
+    padding: 20px;
+    font-size: 1.5em;
+    padding-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Verificador de idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de nascimento: 
+                <input type="number" id="anoNasc" name="anoNasc" required placeholder="1990" min-length="4" max-length="4">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" id="sexoMasc" name="sexo" value="Masculino">
+                <label for="sexoMasc">Masculino</label>
+                <input type="radio" id="sexoFem" name="sexo" value="Feminino">
+                <label for="sexoFem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" id="verificar" name="verificar" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+        </div>
+        <div>
+            <img id="imagem" src="" alt="Imagem">
+        </div>
+    </section>
+    <footer>
+        <p>
+            Produced by <strong>&copy;Vitor Tatsumi</strong>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
